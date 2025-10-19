@@ -43,4 +43,8 @@ cd resume-builder
 npm install
 
 # Start the development server
+<<<<<<< HEAD
 npm start
+=======
+npm start
+>>>>>>> c3073f2e40e2270307f2d7a2dc74fa4abe09273a
