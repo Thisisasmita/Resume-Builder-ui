@@ -14,7 +14,12 @@ It is built with **React.js** and designed to be easily extended in the future f
 - Responsive and minimal UI  
 - Built using React.js and CSS  
 - Integration-ready for backend APIs  
-- Easy to customize or add new templates  
+- Easy to customize or add new templates
+-  Add and manage Personal Details with emoji-based labels
+-  Separate sections for Internships, Certificates, and Achievements
+-  Add and delete Skills dynamically
+-  Live preview of the resume while entering details
+-  ➕ and ❌ buttons for easy field management  
 
 ---
 
@@ -27,6 +32,18 @@ It is built with **React.js** and designed to be easily extended in the future f
 | Editor Used | Visual Studio Code |
 
 ---
+
+##  Approach
+
+The project follows a two-panel layout:
+
+Left Side (Customization Panel):
+Contains all input fields for personal information, education, projects, and more. Users can add or delete entries dynamically.
+
+Right Side (Live Preview Panel):
+Displays the real-time resume preview as the user fills in details.
+
+React’s useState hooks were used to store and update data dynamically. This made the entire process smooth and responsive without page reloads.
 
 ## ⚙️ Installation & Setup
 
