@@ -3,6 +3,7 @@ import "./App.css";
 
 function App() {
   const [personal, setPersonal] = useState({
+
     name: "",
     email: "",
     phone: "",
